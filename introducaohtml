@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <h1 id="inicio" >Introdução ao HTML</h1>
+    <hr/>
+    <h2>Índice</h2>
+    <ol>
+        <li><a href="#italico"> Deixando o Texto em Itálico com a tag < i > </a></li>
+        <li><a href="#strong"> Deixando o Texto em Negrito com a tag < strong > </a></li>
+        <li><a href="#tags"> TAG < H1 > até a TAG < H6 ></a></li>
+        <li><a href="#paragrafo"> Parágrafo com a TAG < P ></a></li>
+        <li><a href="#sublinhado"> Sublinhando um texto ou frase com a TAG < u ></a></li>
+        <li><a href="#citacao"> Fazendo uma citação com a TAG < blockquote ></a></li>
+        <li><a href="#marcatexto"> Fazendo o "efeito" de marca texto com a TAG < mark ></a></li>
+        <li><a href="#elevado"> Elevando um número ao quadrado com a TAG < sup ></a></li>
+        <li><a href="#listas"> Listas ORDENADAS e não ORDENADAS</a></li>
+        <li><a href="#redirecionar"> LINKS </a> </li>
+        <li><a href="#pequeno"> TAG < small > </a> </li>
+    </ol>
+    <h2 id="italico">Como deixar o texto em itálico?</h2>
+        <p>Para deixar o texto em <i>ITÁLICO</i> temos que usar a tag < i > TEXTO QUE FICARÁ EM ITÁLICO < / i > </p>
+    <h2 id="strong">Como deixar o texto em negrito?</h2>
+        <p>Para deixar o texto em <strong> NEGRITO </strong> temos que usar a tag < strong > TEXTO QUE FICARÁ EM NEGRITO < / strong > </p>
+        <hr/>
+    <h2 id="tags">TAG < h1 > até a TAG < / h6 >!</h2>
+        <h1>As palavras  < h1 > </h1> 
+        <h2>vão  < h2 ></h2>
+        <h3>diminuindo < h3 ></h3>
+        <h4>cada  < h4 ></h4>
+        <h5>vez < h5 ></h5>
+        <h6>mais < h6 ></h6>
+        <hr/>
+    <h2 id="paragrafo">Parágrafo com a TAG < P > </h2>
+        <p> Aqui é um exemplo de como funciona a tag... </p>
+    <h2 id="sublinhado">Agora iremos sublinhar uma frase com a tag < u > </h2>
+        <p><u>Texto sublinhado com a tag < u ></u></p>
+    <h2 id="citacao">Faremos uma citação com a tag < blockquote > </h2>
+        <p>Texto de exemplo para podermos realizar a tarefa e demonstrar como funciona a TAG para criar uma citação no HTML</p>
+            <blockquote>"É assim que fica um citação usando a tag < blockquote >"</blockquote>
+        <p>Continuamos escrevendo o texto após a citação colocada a cima </p>
+    <h2 id="marcatexto">Nessa parte iremos mostrar como damos o efeito de marca texto com a TAG < mark > </h2>
+        <p>O efeito de <mark>marca texto</mark> fica muito interessante pois dessa maneira podemos deixa em evidência algo importante para o leitor ou para darmos destaque em algo usando a TAG <mark> < mark >  </mark></p>
+    <h2 id="elevado">Colocando um número elevado ao quadro usando a TAG < sup ></h2>
+        <p>2<sup><mark>2</mark></sup> é igual a 4</p>
+    <h2 id="listas">Exemplos de listas ordenadas e listas não ordenadas usando as TAGS < ol > e < ul ></h2>
+        <p><strong>Exemplo de lista ordenada</strong></p>
+            <ol>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ol>
+        <p><strong>Exemplo de lista não ordenada</strong></p>
+             <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+             </ul>
+    <h2 id="redirecionar">Link que vai para o site do Google </h2>
+    <p>No exemplo abaixo vemos uma tag que irá direcionar a pessoa para algum site específico abrindo uma nova aba no navegador.</p>
+    <a href="https://www.google.com" target="_blank" title="Site do Google">Ir para o Google</a>
+    <h2 id="pequeno">Essa é a TAG small</h2>
+    <p>exemplo da <small>TAG</small></p>
+    <a href="#inicio"><strong>AQUI VOCÊ IRÁ PARA O INICIO DO SITE</strong></a>
+    </body>
+</html>
